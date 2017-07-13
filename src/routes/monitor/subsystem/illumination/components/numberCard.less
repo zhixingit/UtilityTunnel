@@ -1,0 +1,45 @@
+@import "../../../../../themes/vars.less";
+
+.numberCard {
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  .iconWarp {
+    font-size: 54px;
+    float: left;
+  }
+
+  .title {
+    background-color:#fda85d ;
+    color: white;
+    padding:12px;
+    line-height: 16px;
+    font-size: 16px;
+    height: 40px;
+    .text-overflow();
+  }
+
+  .percentage {
+    line-height: 12px;
+    font-size: 12px;
+    float: right;
+    padding-top:4px;
+    .text-overflow();
+  }
+
+  .content {
+    width: 100%;
+    padding: 25px;
+    background-color:#ffb06a ;
+    height: 100px;
+    text-align:center;
+    color: white;
+
+    .number {
+      line-height: 50px;
+      font-size: 50px;
+      height: 50px;
+      .text-overflow();
+    }
+  }
+}
