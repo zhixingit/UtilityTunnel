@@ -7,7 +7,7 @@ const svgSpriteDirs = [
 ]
 
 export default {
-  entry: 'src/index.js',
+  entry: 'src/index.js',aaaa
   svgSpriteLoaderDirs: svgSpriteDirs,
   "theme": "./theme.config.js",
   // "proxy": {         //配置代理,请求到其他服务器,访问 /api/users 就能访问到 http://jsonplaceholder.typicode.com/users 的数据
